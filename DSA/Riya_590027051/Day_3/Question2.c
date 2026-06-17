@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n, target;
+    int n, target, count = 0;
 
     // Input size of array
     scanf("%d", &n);
@@ -13,10 +13,8 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    // Input target
+    // Input target value
     scanf("%d", &target);
-
-    int count = 0;
 
     // Count occurrences
     for(int i = 0; i < n; i++) {
