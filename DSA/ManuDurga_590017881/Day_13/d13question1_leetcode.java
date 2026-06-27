@@ -2,7 +2,7 @@ package Day_13;
 
 import java.util.*;
 
-public class d13question_leetcode {
+public class d13question1_leetcode {
     public static String mostCommonWord(String paragraph, String[] banned) {
         String bigWord = "abc";
         int bigI=0;
